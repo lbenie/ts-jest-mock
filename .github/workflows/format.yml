@@ -1,0 +1,21 @@
+name: Format code
+
+on:
+  pull_request:
+    branches: [master]
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: 'format'
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        with:
+          commit_message: 'chore: apply formatting changes'
+          branch: ${{ github.head_ref }}
