@@ -11,4 +11,4 @@ export type JestMock<T> = T extends (...args: unknown[]) => unknown
  * @param toMock Something to mock
  * @returns Mocked version
  */
-export const createMock = <T>(toMock: T) => toMock as JestMock<T>
+export const createMock = <T>(toMock: T) => toMock as JestMock<typeof toMock>
