@@ -1,16 +1,12 @@
-name: Format code
+name: Test code
 
-on:
-  pull_request:
-    branches: [master]
+on: [push, pull_request]
 
 jobs:
-  format:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.head_ref }}
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -24,10 +20,5 @@ jobs:
       - name: Install modules
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn
-      - name: Run format
-        run: yarn format
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4.1.2
-        with:
-          commit_message: 'chore: apply formatting changes'
-          branch: ${{ github.head_ref }}
+      - name: Test code
+        run: yarn test
