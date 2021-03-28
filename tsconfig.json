@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "moduleResolution":"Node",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "lib/**/*.ts",
+    "global.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}
