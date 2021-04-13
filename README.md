@@ -35,15 +35,15 @@ import { someFn } from 'module_a'
 
 jest.mock('module_a')
 
-describe('something', () => {
-  let someFnMock: JestMock<typeof someFn>
+const someFnMock = createMock(someFnMock)
 
+describe('something', () => {
   beforeEach(() => {
-    someFnMock = createMock(someFnMock)
+    someFnMock.mockReturnValue('') <-- Type inference yay :)
   })
 
   it('some test', () => {
-    someFnMock.mockReturnValue('') <-- Type inference yay :)
+    expect(someFnMock).toBe('')
   })
 })
 ```
