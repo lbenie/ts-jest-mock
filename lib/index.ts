@@ -1,10 +1,10 @@
-export type JestMock<T> = T extends (...args: unknown[]) => unknown
+export type JestMock<T> = T extends (...args: any[]) => any
   ? jest.MockedFunction<T>
   : T extends jest.Constructable
   ? jest.MockedClass<T>
-  : T extends Record<string | number | symbol, unknown>
+  : T extends Record<string | number | symbol, any>
   ? jest.Mocked<T>
-  : jest.Mock
+  : jest.Mock<T>
 
 /**
  * Maps to the proper jest mock type
