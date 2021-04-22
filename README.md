@@ -12,7 +12,6 @@ Directly in a test
 
 ```ts
 import { createMock } from 'ts-jest-mock'
-import type { JestMock } from 'ts-jest-mock'
 import { someFn } from 'module_a'
 
 jest.mock('module_a')
@@ -30,7 +29,6 @@ Or with a beforeEach pattern
 
 ```ts
 import { createMock } from 'ts-jest-mock'
-import type { JestMock } from 'ts-jest-mock'
 import { someFn } from 'module_a'
 
 jest.mock('module_a')
