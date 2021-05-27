@@ -1,4 +1,7 @@
 {
   "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true
+  },
   "include": ["lib/**/*.spec.ts", "__tests__", "jest.config.js", "global.d.ts"]
 }
