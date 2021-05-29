@@ -41,7 +41,7 @@
     "@stryker-mutator/jest-runner": "5.0.1",
     "@types/jest": "26.0.23",
     "concurrently": "6.2.0",
-    "jest": "27.0.1",
+    "jest": "27.0.2",
     "jest-chain": "1.1.5",
     "jest-extended": "0.11.5",
     "prettier": "2.3.0",
