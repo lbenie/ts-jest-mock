@@ -47,7 +47,7 @@ import { someFn } from 'module_a'
 
 jest.mock('module_a')
 
-const someFnMock = createMock(someFnMock)
+const someFnMock = createMock(someFn)
 
 describe('something', () => {
   beforeEach(() => {

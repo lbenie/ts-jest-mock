@@ -17,14 +17,23 @@
   ],
   "license": "MIT",
   "private": false,
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/ts-jest-mock.umd.js",
+  "module": "./dist/ts-jest-mock.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ts-jest-mock.es.js",
+      "require": "./dist/ts-jest-mock.umd.js"
+    }
+  },
   "types": "dist/types/index.d.ts",
   "scripts": {
     "test": "concurrently -n jest,stryker 'jest --coverage' 'stryker run'",
     "test:mutation": "stryker run",
     "format": "prettier lib --write",
-    "build": "rollup -c"
+    "build": "vite build"
   },
   "peerDependencies": {
     "@types/jest": "^26.0.21",
@@ -32,24 +41,20 @@
     "typescript": "^4.2.3"
   },
   "devDependencies": {
-    "@babel/core": "7.14.3",
-    "@rollup/plugin-babel": "5.3.0",
-    "@rollup/plugin-commonjs": "19.0.2",
-    "@rollup/plugin-node-resolve": "13.0.4",
     "@rollup/plugin-typescript": "8.2.5",
-    "@stryker-mutator/core": "5.0.1",
-    "@stryker-mutator/jest-runner": "5.0.1",
-    "@types/jest": "26.0.24",
-    "concurrently": "6.2.0",
-    "jest": "27.0.3",
+    "@stryker-mutator/core": "5.3.0",
+    "@stryker-mutator/jest-runner": "5.3.0",
+    "@types/jest": "27.0.1",
+    "concurrently": "6.2.1",
+    "jest": "27.1.0",
     "jest-chain": "1.1.5",
     "jest-extended": "0.11.5",
-    "prettier": "2.3.0",
-    "rollup": "2.50.5",
-    "rollup-plugin-auto-external": "2.0.0",
-    "rollup-plugin-dts": "3.0.2",
-    "ts-jest": "27.0.2",
-    "tslib": "2.2.0",
-    "typescript": "4.3.2"
+    "prettier": "2.3.2",
+    "rollup": "2.56.3",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "ts-jest": "27.0.5",
+    "tslib": "2.3.1",
+    "typescript": "4.4.2",
+    "vite": "^2.5.1"
   }
 }

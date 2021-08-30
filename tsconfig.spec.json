@@ -3,5 +3,5 @@
   "compilerOptions": {
     "esModuleInterop": true
   },
-  "include": ["lib/**/*.spec.ts", "__tests__", "jest.config.js", "global.d.ts"]
+  "include": ["lib/**/*.spec.ts", "jest.config.js", "global.d.ts"]
 }
