@@ -1,7 +1,7 @@
 [![Format code](https://github.com/lbenie/ts-jest-mock/actions/workflows/format.yml/badge.svg)](https://github.com/lbenie/ts-jest-mock/actions/workflows/format.yml)
 [![Release](https://github.com/lbenie/ts-jest-mock/actions/workflows/release.yml/badge.svg)](https://github.com/lbenie/ts-jest-mock/actions/workflows/release.yml)
 [![Test code](https://github.com/lbenie/ts-jest-mock/actions/workflows/test.yml/badge.svg)](https://github.com/lbenie/ts-jest-mock/actions/workflows/test.yml)
-[![Mutation testing badge](https://badge.stryker-mutator.io/github.com/lbenie/ts-jest-mock/master)](https://stryker-mutator.github.io)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Flbenie%2Fts-jest-mock%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/lbenie/ts-jest-mock/main)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![npm](https://img.shields.io/npm/l/ts-jest-mock.svg)](https://github.com/lbenie/ts-jest-mock/blob/master/LICENSE)
