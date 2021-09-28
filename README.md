@@ -17,7 +17,7 @@ A way to get jest type definition infered automagically.
 
 ## Pre-requisites
 
-This library takes for granted that you have your tests setup with `jest` and `ts-jest`.
+This library takes for granted that you have your tests setup with `jest`.
 
 ## Usage
 
