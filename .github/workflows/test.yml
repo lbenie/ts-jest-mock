@@ -11,3 +11,5 @@ jobs:
         uses: bahmutov/npm-install@v1
       - name: Test code
         run: yarn test
+        env:
+          STRYKER_DASHBOARD_API_KEY: ${{ secrets.STRYKER_DASHBOARD_API_KEY }}
