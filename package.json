@@ -45,7 +45,7 @@
     "@stryker-mutator/core": "5.4.1",
     "@stryker-mutator/jest-runner": "5.4.1",
     "@types/jest": "27.0.2",
-    "concurrently": "6.3.0",
+    "concurrently": "6.4.0",
     "jest": "27.3.1",
     "jest-chain": "1.1.5",
     "jest-extended": "1.1.0",
