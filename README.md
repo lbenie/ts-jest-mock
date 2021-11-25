@@ -8,7 +8,6 @@
 [![npm](https://img.shields.io/npm/dt/ts-jest-mock.svg)](https://www.npmjs.com/package/ts-jest-mock)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/ts-jest-mock.svg)](https://www.npmjs.com/package/ts-jest-mock)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
@@ -71,7 +70,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://lbenie.xyz/"><img src="https://avatars.githubusercontent.com/u/7316046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucien Bénié</b></sub></a><br /><a href="https://github.com/Lucien Benie/ts-jest-mock/commits?author=lbenie" title="Code">💻</a> <a href="https://github.com/Lucien Benie/ts-jest-mock/commits?author=lbenie" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://lbenie.xyz/"><img src="https://avatars.githubusercontent.com/u/7316046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucien Bénié</b></sub></a><br /><a href="https://github.com/lbenie/ts-jest-mock/commits?author=lbenie" title="Code">💻</a> <a href="https://github.com/lbenie/ts-jest-mock/commits?author=lbenie" title="Documentation">📖</a></td>
   </tr>
 </table>
 
