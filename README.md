@@ -1,7 +1,4 @@
 [![Format code](https://github.com/lbenie/ts-jest-mock/actions/workflows/format.yml/badge.svg)](https://github.com/lbenie/ts-jest-mock/actions/workflows/format.yml)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Release](https://github.com/lbenie/ts-jest-mock/actions/workflows/release.yml/badge.svg)](https://github.com/lbenie/ts-jest-mock/actions/workflows/release.yml)
 [![Test code](https://github.com/lbenie/ts-jest-mock/actions/workflows/test.yml/badge.svg)](https://github.com/lbenie/ts-jest-mock/actions/workflows/test.yml)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Flbenie%2Fts-jest-mock%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/lbenie/ts-jest-mock/main)
@@ -9,7 +6,10 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![npm](https://img.shields.io/npm/l/ts-jest-mock.svg)](https://github.com/lbenie/ts-jest-mock/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/dt/ts-jest-mock.svg)](https://www.npmjs.com/package/ts-jest-mock)
-[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/ts-jest-mock.svg)](https://www.npmjs.com/package/ts-jest-mock)
+[![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/ts-jest-mock.svg)](https://www.npmjs.com/package/ts-jest-mock)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)](https://forthebadge.com)
