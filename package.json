@@ -51,7 +51,7 @@
     "jest-chain": "1.1.5",
     "jest-extended": "1.2.0",
     "prettier": "2.5.0",
-    "rollup": "2.60.1",
+    "rollup": "2.60.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "ts-jest": "27.0.7",
     "tslib": "2.3.1",
