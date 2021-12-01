@@ -47,7 +47,7 @@
     "@types/jest": "27.0.3",
     "all-contributors-cli": "6.20.0",
     "concurrently": "6.4.0",
-    "jest": "27.4.2",
+    "jest": "27.4.3",
     "jest-chain": "1.1.5",
     "jest-extended": "1.2.0",
     "prettier": "2.5.0",
