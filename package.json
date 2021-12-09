@@ -42,6 +42,9 @@
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "8.3.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "@stryker-mutator/core": "5.5.1",
     "@stryker-mutator/jest-runner": "5.5.1",
     "@types/jest": "27.0.3",
