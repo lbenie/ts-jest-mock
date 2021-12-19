@@ -60,6 +60,21 @@ module.exports = {
     ],
     '@semantic-release/npm',
     [
+      '@semantic-release/github',
+      {
+        assets: [
+          {
+            path: 'dist/ts-jest-mock.js',
+            label: 'ES js distribution',
+          },
+          {
+            path: 'dist/ts-jest-mock.js',
+            label: 'UMD js distribution',
+          },
+        ],
+      },
+    ],
+    [
       '@semantic-release/git',
       {
         assets: ['package.json', 'CHANGELOG.md'],
