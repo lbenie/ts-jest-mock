@@ -1145,7 +1145,7 @@
     micromatch "^4.0.0"
     p-reduce "^2.0.0"
 
-"@semantic-release/github@^8.0.0", "@semantic-release/github@^8.0.2":
+"@semantic-release/github@8.0.2", "@semantic-release/github@^8.0.0":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-8.0.2.tgz#80114a41f6ec8ab6c0d38a436b48ff3f2223ab16"
   integrity sha512-wIbfhOeuxlYzMTjtSAa2xgr54n7ZuPAS2gadyTWBpUt2PNAPgla7A6XxCXJnaKPgfVF0iFfSk3B+KlVKk6ByVg==
@@ -2201,7 +2201,7 @@ conventional-changelog-angular@^5.0.0:
     compare-func "^2.0.0"
     q "^1.5.1"
 
-conventional-changelog-conventionalcommits@^4.6.1:
+conventional-changelog-conventionalcommits@4.6.1:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.1.tgz#f4c0921937050674e578dc7875f908351ccf4014"
   integrity sha512-lzWJpPZhbM1R0PIzkwzGBCnAkH5RKJzJfFQZcl/D+2lsJxAwGnDKBqn/F4C1RD31GJNn8NuKWQzAZDAVXPp2Mw==
