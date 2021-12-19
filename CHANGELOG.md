@@ -1,3 +1,10 @@
+### [1.1.4](https://github.com/lbenie/ts-jest-mock/compare/v1.1.3...v1.1.4) (2021-12-19)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency concurrently to v6.5.1 ([c228893](https://github.com/lbenie/ts-jest-mock/commit/c2288933e3f3fc2cdc8110000078c0dfe1787139))
+
 ### [1.1.3](https://github.com/lbenie/ts-jest-mock/compare/v1.1.2...v1.1.3) (2021-12-19)
 
 
