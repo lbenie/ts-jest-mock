@@ -1,3 +1,10 @@
+### [1.1.13](https://github.com/lbenie/ts-jest-mock/compare/v1.1.12...v1.1.13) (2021-12-29)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v4.6.3 ([c538ecd](https://github.com/lbenie/ts-jest-mock/commit/c538ecd5b294a0afed03f5f3c559a7a8ce83d969))
+
 ### [1.1.12](https://github.com/lbenie/ts-jest-mock/compare/v1.1.11...v1.1.12) (2021-12-28)
 
 
