@@ -1,3 +1,10 @@
+### [1.1.15](https://github.com/lbenie/ts-jest-mock/compare/v1.1.14...v1.1.15) (2021-12-30)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency @types/jest to v27.4.0 ([f15c7b6](https://github.com/lbenie/ts-jest-mock/commit/f15c7b6ac5655ba5a927ddcd3b4b900d1cabc581))
+
 ### [1.1.14](https://github.com/lbenie/ts-jest-mock/compare/v1.1.13...v1.1.14) (2021-12-30)
 
 
