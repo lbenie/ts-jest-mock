@@ -51,7 +51,7 @@
     "all-contributors-cli": "6.20.0",
     "concurrently": "7.0.0",
     "conventional-changelog-conventionalcommits": "4.6.3",
-    "jest": "27.4.6",
+    "jest": "27.4.7",
     "jest-chain": "1.1.5",
     "jest-extended": "1.2.0",
     "prettier": "2.5.1",
