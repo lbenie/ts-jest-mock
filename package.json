@@ -1,6 +1,6 @@
 {
   "name": "ts-jest-mock",
-  "version": "1.1.18",
+  "version": "1.1.19",
   "description": "Maps to the proper jest mock type",
   "repository": "https://github.com/lbenie/ts-jest-mock.git",
   "author": "Lucien Bénié <lucien.benie@gmail.com>",

@@ -1,3 +1,10 @@
+### [1.1.19](https://github.com/lbenie/ts-jest-mock/compare/v1.1.18...v1.1.19) (2022-01-05)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency jest to v27.4.7 ([743ad21](https://github.com/lbenie/ts-jest-mock/commit/743ad212771639432811a3de156d1cb2bd4fe279))
+
 ### [1.1.18](https://github.com/lbenie/ts-jest-mock/compare/v1.1.17...v1.1.18) (2022-01-05)
 
 
