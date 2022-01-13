@@ -1,3 +1,10 @@
+### [1.1.21](https://github.com/lbenie/ts-jest-mock/compare/v1.1.20...v1.1.21) (2022-01-13)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency vite to v2.7.11 ([17d4a42](https://github.com/lbenie/ts-jest-mock/commit/17d4a4263ee5272b146060a96af59a68209a96ce))
+
 ### [1.1.20](https://github.com/lbenie/ts-jest-mock/compare/v1.1.19...v1.1.20) (2022-01-10)
 
 
