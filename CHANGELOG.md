@@ -1,3 +1,10 @@
+### [1.1.25](https://github.com/lbenie/ts-jest-mock/compare/v1.1.24...v1.1.25) (2022-01-18)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency semantic-release to v19 ([9e21538](https://github.com/lbenie/ts-jest-mock/commit/9e2153849a993f83d84f46790bc629c3aba222fc))
+
 ### [1.1.24](https://github.com/lbenie/ts-jest-mock/compare/v1.1.23...v1.1.24) (2022-01-15)
 
 
