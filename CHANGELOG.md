@@ -1,3 +1,10 @@
+### [1.1.27](https://github.com/lbenie/ts-jest-mock/compare/v1.1.26...v1.1.27) (2022-01-20)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency typescript to v4.5.5 ([427c0d1](https://github.com/lbenie/ts-jest-mock/commit/427c0d1355e7f3951fec3d08123e02b6e3c36c71))
+
 ### [1.1.26](https://github.com/lbenie/ts-jest-mock/compare/v1.1.25...v1.1.26) (2022-01-19)
 
 
