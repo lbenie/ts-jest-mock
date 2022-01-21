@@ -1,3 +1,10 @@
+### [1.1.28](https://github.com/lbenie/ts-jest-mock/compare/v1.1.27...v1.1.28) (2022-01-21)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update dependency rollup to v2.65.0 ([1c57e7c](https://github.com/lbenie/ts-jest-mock/commit/1c57e7c66859a42f25a97d4db746148ac00976bd))
+
 ### [1.1.27](https://github.com/lbenie/ts-jest-mock/compare/v1.1.26...v1.1.27) (2022-01-20)
 
 
