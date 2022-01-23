@@ -1,3 +1,10 @@
+### [1.1.30](https://github.com/lbenie/ts-jest-mock/compare/v1.1.29...v1.1.30) (2022-01-23)
+
+
+### :white_check_mark: Chores
+
+* **deps:** update stryker-js monorepo to v5.6.1 ([658684f](https://github.com/lbenie/ts-jest-mock/commit/658684fb2f715f9534f2d46aebd3262c20eafd08))
+
 ### [1.1.29](https://github.com/lbenie/ts-jest-mock/compare/v1.1.28...v1.1.29) (2022-01-22)
 
 
