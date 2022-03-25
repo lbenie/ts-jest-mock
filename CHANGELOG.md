@@ -1,3 +1,47 @@
+### [1.1.32](https://github.com/lbenie/ts-jest-mock/compare/v1.1.31...v1.1.32) (2022-03-25)
+
+
+### :white_check_mark: Chores
+
+* **deps:** bump nanoid from 3.1.30 to 3.2.0 ([02b3d9f](https://github.com/lbenie/ts-jest-mock/commit/02b3d9f4a9eb856418660f2ffcf5b21ca84bb0f7))
+* **deps:** bump node-fetch from 2.6.6 to 2.6.7 ([f518d01](https://github.com/lbenie/ts-jest-mock/commit/f518d01fc76b3f0ac441529baa6d37fa3d32fd30))
+* **deps:** update actions/checkout action to v3 ([46476db](https://github.com/lbenie/ts-jest-mock/commit/46476db15371c81d7844b8d902a792ffccf13f4d))
+* **deps:** update dependency @rollup/plugin-typescript to v8.3.1 ([45c52f2](https://github.com/lbenie/ts-jest-mock/commit/45c52f23ed78e0a5771f7e54488c6d3430d68ba5))
+* **deps:** update dependency @types/jest to v27.4.1 ([943ef90](https://github.com/lbenie/ts-jest-mock/commit/943ef90727e2d05803bd484e415339789e35d2e2))
+* **deps:** update dependency jest to v27.5.0 ([009cda7](https://github.com/lbenie/ts-jest-mock/commit/009cda71bb04234b62f980359389bbcd257a2971))
+* **deps:** update dependency jest to v27.5.1 ([2a136e0](https://github.com/lbenie/ts-jest-mock/commit/2a136e036d8acea5cd9ff5400f568147444e1449))
+* **deps:** update dependency jest-extended to v1.2.1 ([56a1b86](https://github.com/lbenie/ts-jest-mock/commit/56a1b8610632d3ec9b36a36b2ee9659d6a784563))
+* **deps:** update dependency jest-extended to v2 ([4192f0f](https://github.com/lbenie/ts-jest-mock/commit/4192f0fb0f5d0b5fb14b60be94bc4e25a24bad37))
+* **deps:** update dependency prettier to v2.6.0 ([86f7b26](https://github.com/lbenie/ts-jest-mock/commit/86f7b2665bdff6ff3366a84d4456fb36fcebcdd8))
+* **deps:** update dependency prettier to v2.6.1 ([604477a](https://github.com/lbenie/ts-jest-mock/commit/604477aacafc89e1f37e68c2e979004f309afad0))
+* **deps:** update dependency rollup to v2.67.0 ([882c628](https://github.com/lbenie/ts-jest-mock/commit/882c6280ca47372e12cf8e478bb5a2701bde717b))
+* **deps:** update dependency rollup to v2.67.1 ([21e64ac](https://github.com/lbenie/ts-jest-mock/commit/21e64acc9a9c635d07d89ab0970a258fdbdaab79))
+* **deps:** update dependency rollup to v2.67.2 ([1d85ee2](https://github.com/lbenie/ts-jest-mock/commit/1d85ee241807d690af888f0067a1e7ffce0604d3))
+* **deps:** update dependency rollup to v2.67.3 ([7043718](https://github.com/lbenie/ts-jest-mock/commit/704371836a1d77d9b253318525062dacdb899421))
+* **deps:** update dependency rollup to v2.68.0 ([a444fd8](https://github.com/lbenie/ts-jest-mock/commit/a444fd889cd4f9c2ebb4bc534c7fbcbafe1ce760))
+* **deps:** update dependency rollup to v2.69.0 ([ea23bf5](https://github.com/lbenie/ts-jest-mock/commit/ea23bf5fbc8e5ff2af195971e703fb4673743b9a))
+* **deps:** update dependency rollup to v2.69.1 ([b9e69df](https://github.com/lbenie/ts-jest-mock/commit/b9e69df0d85303008f47dcb8a6d528f845c03bdb))
+* **deps:** update dependency rollup to v2.69.2 ([44888c2](https://github.com/lbenie/ts-jest-mock/commit/44888c2889091083e62ab0d4067b05179592cac7))
+* **deps:** update dependency rollup to v2.70.0 ([bbdacb6](https://github.com/lbenie/ts-jest-mock/commit/bbdacb66d11a6ca973a523b55c6567e7906df475))
+* **deps:** update dependency rollup to v2.70.1 ([a2d021c](https://github.com/lbenie/ts-jest-mock/commit/a2d021ccb16f39d054c0faf94240681977d8d5c2))
+* **deps:** update dependency ts-jest to v27.1.4 ([86a0071](https://github.com/lbenie/ts-jest-mock/commit/86a0071bd98eb22454876cfd1fa7aff3ab1b1edf))
+* **deps:** update dependency typescript to v4.6.2 ([1766f37](https://github.com/lbenie/ts-jest-mock/commit/1766f3722e9eafa1139a63c8c348e9a4454edfd2))
+* **deps:** update dependency typescript to v4.6.3 ([b38c7f8](https://github.com/lbenie/ts-jest-mock/commit/b38c7f89ea91f8a85abdc3ba28656e0798e5df28))
+* **deps:** update dependency vite to v2.8.0 ([b93a8d2](https://github.com/lbenie/ts-jest-mock/commit/b93a8d2de25bbd82460129f78e007afefcdf0810))
+* **deps:** update dependency vite to v2.8.1 ([4dd6612](https://github.com/lbenie/ts-jest-mock/commit/4dd661230a3f3850a56cd5c0b6d4a1615659858d))
+* **deps:** update dependency vite to v2.8.2 ([1df5444](https://github.com/lbenie/ts-jest-mock/commit/1df5444bf0e9d2cf5e015830d90ef803fbcad588))
+* **deps:** update dependency vite to v2.8.3 ([8a727b4](https://github.com/lbenie/ts-jest-mock/commit/8a727b4d60c7b327f8a5a83da075b1ebeb217d1d))
+* **deps:** update dependency vite to v2.8.4 ([c846cda](https://github.com/lbenie/ts-jest-mock/commit/c846cdad96d8c5b32521be8e9413f7d7db46ca36))
+* **deps:** update dependency vite to v2.8.5 ([73c426b](https://github.com/lbenie/ts-jest-mock/commit/73c426be67580fc573144423e68a6b1c1e194a06))
+* **deps:** update dependency vite to v2.8.6 ([5293c8b](https://github.com/lbenie/ts-jest-mock/commit/5293c8bc2ee2f2b979b17a70dd1e3bfe0571a019))
+* **deps:** update stefanzweifel/git-auto-commit-action action to v4.13.1 ([78e1160](https://github.com/lbenie/ts-jest-mock/commit/78e116086451b70aa336e3ae20f7a0b030313329))
+* **deps:** update stefanzweifel/git-auto-commit-action action to v4.14.0 ([1ebe864](https://github.com/lbenie/ts-jest-mock/commit/1ebe864aae06f13e17bef4bfbe6ae3e1b6335451))
+
+
+### :bug: Fixes
+
+* uses propertkey built-in type ([c9ccc00](https://github.com/lbenie/ts-jest-mock/commit/c9ccc00e6ae3af22fc02dadee194d0c62366d37b))
+
 ### [1.1.31](https://github.com/lbenie/ts-jest-mock/compare/v1.1.30...v1.1.31) (2022-01-25)
 
 
