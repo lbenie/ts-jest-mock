@@ -20,6 +20,7 @@ describe('lib/index', () => {
     sampleClassMock = createMock(sampleClass)
     sampleFunctionMock = createMock(sampleFunction)
     sampleObjMock = createMock(sampleObj)
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     sampleSomethingMock = createMock(sampleSomething)
   })
 
