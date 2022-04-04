@@ -1,4 +1,5 @@
-export type JestMock<T> = T extends (...args: any[]) => any
+/* eslint-disable @typescript-eslint/no-explicit-any */
+export type JestMock<T> = T extends (...args: readonly any[]) => any
   ? jest.MockedFunction<T>
   : T extends jest.Constructable
   ? jest.MockedClass<T>

@@ -1,1 +1,1 @@
-export const sampleSomething: undefined = undefined
+export const sampleSomething = undefined
