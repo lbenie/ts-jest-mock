@@ -37,7 +37,7 @@
   },
   "peerDependencies": {
     "@types/jest": "^26.0.21 || ^27.0.0",
-    "jest": "^26.6.3 || ^27.0.0",
+    "jest": "^26.6.3 || ^27.0.0 || ^28.0.0",
     "typescript": "^4.2.3"
   },
   "devDependencies": {
@@ -57,14 +57,14 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-functional": "4.2.1",
     "eslint-plugin-prettier": "4.0.0",
-    "jest": "27.5.1",
+    "jest": "28.1.0",
     "jest-chain": "1.1.5",
     "jest-extended": "2.0.0",
     "prettier": "2.6.2",
     "rollup": "2.72.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "semantic-release": "19.0.2",
-    "ts-jest": "27.1.4",
+    "ts-jest": "28.0.2",
     "tslib": "2.4.0",
     "tsutils": "3.21.0",
     "typescript": "4.6.4",
