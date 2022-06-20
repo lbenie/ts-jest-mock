@@ -24,6 +24,7 @@
   "module": "./dist/ts-jest-mock.es.js",
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/ts-jest-mock.es.js",
       "require": "./dist/ts-jest-mock.umd.js"
     }
