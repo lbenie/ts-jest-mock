@@ -7,7 +7,7 @@
 [![npm](https://img.shields.io/npm/l/ts-jest-mock.svg)](https://github.com/lbenie/ts-jest-mock/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/dt/ts-jest-mock.svg)](https://www.npmjs.com/package/ts-jest-mock)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/min/ts-jest-mock.svg)](https://www.npmjs.com/package/ts-jest-mock)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
@@ -71,6 +71,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://lbenie.xyz/"><img src="https://avatars.githubusercontent.com/u/7316046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucien Bénié</b></sub></a><br /><a href="https://github.com/lbenie/ts-jest-mock/commits?author=lbenie" title="Code">💻</a> <a href="https://github.com/lbenie/ts-jest-mock/commits?author=lbenie" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/SebDuf"><img src="https://avatars.githubusercontent.com/u/12822182?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sébastien Dufour-Beauséjour</b></sub></a><br /><a href="https://github.com/lbenie/ts-jest-mock/commits?author=SebDuf" title="Code">💻</a></td>
   </tr>
 </table>
 
