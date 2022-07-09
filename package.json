@@ -60,7 +60,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "jest": "28.1.2",
     "jest-chain": "1.1.5",
-    "jest-extended": "2.0.0",
+    "jest-extended": "3.0.0",
     "prettier": "2.7.1",
     "rollup": "2.76.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
