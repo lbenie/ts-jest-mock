@@ -48,7 +48,7 @@
     "@semantic-release/github": "8.0.6",
     "@stryker-mutator/core": "6.2.2",
     "@stryker-mutator/jest-runner": "6.2.2",
-    "@types/jest": "29.0.1",
+    "@types/jest": "29.0.2",
     "@typescript-eslint/eslint-plugin": "5.37.0",
     "@typescript-eslint/parser": "5.37.0",
     "all-contributors-cli": "6.20.4",
