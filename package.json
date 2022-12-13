@@ -62,7 +62,7 @@
     "jest-chain": "1.1.6",
     "jest-extended": "3.2.0",
     "prettier": "2.8.1",
-    "rollup": "3.7.3",
+    "rollup": "3.7.4",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "semantic-release": "19.0.5",
     "ts-jest": "29.0.3",
