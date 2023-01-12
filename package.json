@@ -29,6 +29,11 @@
       "require": "./dist/ts-jest-mock.umd.js"
     }
   },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
   "types": "dist/types/index.d.ts",
   "scripts": {
     "test": "concurrently -n jest 'jest --coverage'",
