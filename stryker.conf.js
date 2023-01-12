@@ -9,6 +9,6 @@ module.exports = {
   tsconfigFile: 'tsconfig.spec.json',
   mutate: ['lib/index.ts'],
   jest: {
-    configFile: 'jest.config.js',
+    configFile: 'jest.config.ts',
   },
 }
