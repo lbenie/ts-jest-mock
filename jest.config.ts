@@ -1,13 +1,17 @@
-/**
- * @type {import('@jest/types').Config.InitialOptions}
- */
-module.exports = {
+import type { JestConfigWithTsJest } from 'ts-jest'
+
+const config: JestConfigWithTsJest = {
   preset: 'ts-jest',
   setupFilesAfterEnv: ['jest-chain', 'jest-extended'],
   coverageReporters: ['html', 'lcov', 'text'],
   coverageDirectory: '<rootDir>/coverage',
   transform: {
-    '^.+\\.ts': 'ts-jest',
+    '^.+\\.tsx?$': [
+      'ts-jest',
+      {
+        tsconfig: 'tsconfig.spec.json',
+      },
+    ],
   },
   testPathIgnorePatterns: ['<rootDir>/node_modules/'],
   coverageThreshold: {
@@ -18,10 +22,7 @@ module.exports = {
       statements: 95,
     },
   },
-  globals: {
-    'ts-jest': {
-      tsconfig: 'tsconfig.spec.json',
-    },
-  },
   collectCoverageFrom: ['lib/**/*.ts', '!lib/sample/**/*.ts'],
 }
+
+export default config

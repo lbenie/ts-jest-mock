@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "module": "ESNext",
-    "moduleResolution":"Node",
+    "moduleResolution": "Node",
+    "target": "ESNext",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -12,5 +13,9 @@
     "lib/**/*.ts",
     "global.d.ts"
   ],
-  "exclude": ["node_modules", "lib/sample", "*.spec.ts"]
+  "exclude": [
+    "node_modules",
+    "lib/sample",
+    "*.spec.ts"
+  ]
 }
