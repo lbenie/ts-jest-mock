@@ -1,11 +1,14 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": [
+      "ESNext"
+    ]
   },
   "include": [
     "./**/*.mjs",
     "./**/*.cjs",
-    "./jest.config.ts"
+    "./*.ts"
   ]
 }
