@@ -31,7 +31,7 @@
   },
   "types": "dist/types/index.d.ts",
   "scripts": {
-    "test": "concurrently -n jest,stryker 'jest --coverage' 'stryker run'",
+    "test": "concurrently -n jest 'jest --coverage'",
     "test:mutation": "stryker run",
     "format": "eslint lib --fix",
     "build": "vite build"
