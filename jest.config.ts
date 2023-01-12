@@ -1,7 +1,6 @@
-/**
- * @type {import('@jest/types').Config.InitialOptions}
- */
-module.exports = {
+import type { Config } from 'jest'
+
+const config: Config = {
   preset: 'ts-jest',
   setupFilesAfterEnv: ['jest-chain', 'jest-extended'],
   coverageReporters: ['html', 'lcov', 'text'],
@@ -25,3 +24,5 @@ module.exports = {
   },
   collectCoverageFrom: ['lib/**/*.ts', '!lib/sample/**/*.ts'],
 }
+
+export default config
