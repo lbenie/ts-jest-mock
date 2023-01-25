@@ -73,7 +73,7 @@
     "prettier": "2.8.3",
     "rollup": "3.10.1",
     "rollup-plugin-peer-deps-external": "2.2.4",
-    "semantic-release": "20.0.4",
+    "semantic-release": "20.1.0",
     "ts-jest": "29.0.5",
     "ts-node": "10.9.1",
     "tslib": "2.4.1",
