@@ -8,10 +8,15 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'lib', 'index.ts'),
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       name,
     },
     rollupOptions: {
+      output: {
+        dir: 'dist',
+      },
       plugins: [
+        // eslint-disable-next-line @typescript-eslint/no-unsafe-call
         peerDepsExternal(),
         typescript({
           tsconfig: resolve(__dirname, 'tsconfig.json'),
