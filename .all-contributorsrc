@@ -28,8 +28,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ryanong",
+      "name": "Ryan Ong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206333?v=4",
+      "profile": "https://github.com/ryanong",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs"
 }
