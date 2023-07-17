@@ -23,7 +23,7 @@ module.exports = {
       { singleQuote: true, semi: false, trailingComma: 'all' },
     ],
     '@typescript-eslint/consistent-type-imports': ['error'],
-    '@typescript-eslint/prefer-readonly': ['error', { ignoreClass: true }],
+    '@typescript-eslint/prefer-readonly': ['error'],
     'functional/prefer-tacit': ['error'],
   },
   env: {
