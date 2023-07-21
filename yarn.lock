@@ -2624,7 +2624,7 @@
     semver "^7.5.4"
     ts-api-utils "^1.0.1"
 
-"@typescript-eslint/utils@6.0.0", "@typescript-eslint/utils@^6.0.0":
+"@typescript-eslint/utils@6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-6.0.0.tgz#27a16d0d8f2719274a39417b9782f7daa3802db0"
   integrity sha512-SOr6l4NB6HE4H/ktz0JVVWNXqCJTOo/mHnvIte1ZhBQ0Cvd04x5uKZa3zT6tiodL06zf5xxdK8COiDvPnQ27JQ==
@@ -2638,7 +2638,7 @@
     eslint-scope "^5.1.1"
     semver "^7.5.0"
 
-"@typescript-eslint/utils@6.1.0":
+"@typescript-eslint/utils@6.1.0", "@typescript-eslint/utils@^6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/utils/-/utils-6.1.0.tgz#1641843792b4e3451cc692e2c73055df8b26f453"
   integrity sha512-wp652EogZlKmQoMS5hAvWqRKplXvkuOnNzZSE0PVvsKjpexd/XznRVHAtrfHFYmqaJz0DFkjlDsGYC9OXw+OhQ==
@@ -3914,12 +3914,12 @@ eslint-config-prettier@8.8.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.8.0.tgz#bfda738d412adc917fd7b038857110efe98c9348"
   integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
 
-eslint-plugin-functional@6.0.0-next.3:
-  version "6.0.0-next.3"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-functional/-/eslint-plugin-functional-6.0.0-next.3.tgz#ce23c4b8af173e5ee24b6f261a06cdd9c6af5259"
-  integrity sha512-+pKg8bwO0nNuyeM47OdKlsJFIN7gC5cd+AEPX4AgzSBzCNYWHs38IUbGiK1yuTeb05q9BUtulQU5Z8VSJMFXGQ==
+eslint-plugin-functional@6.0.0-next.4:
+  version "6.0.0-next.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-functional/-/eslint-plugin-functional-6.0.0-next.4.tgz#85bb59c49b4084add68e34ddd6ac4724fa1a0fc7"
+  integrity sha512-phsINnhelfA5yv4lKEU3f8koVeV3ywygAU6w0Dhn++DRghnwabH4VMvd02/9LWx5VQXowRao3gLcOD8gxZ37lQ==
   dependencies:
-    "@typescript-eslint/utils" "^6.0.0"
+    "@typescript-eslint/utils" "^6.1.0"
     deepmerge-ts "^5.1.0"
     escape-string-regexp "^4.0.0"
     is-immutable-type "^2.0.1"
