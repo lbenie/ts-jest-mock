@@ -3914,10 +3914,10 @@ eslint-config-prettier@8.8.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.8.0.tgz#bfda738d412adc917fd7b038857110efe98c9348"
   integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
 
-eslint-plugin-functional@6.0.0-next.6:
-  version "6.0.0-next.6"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-functional/-/eslint-plugin-functional-6.0.0-next.6.tgz#703dad2cd2d4083c2b022e5b2780bba6f5b8155f"
-  integrity sha512-zC4sKyxSRjBqLvqZrxly2rjHFQaPczuJA+Q0pJrD4nMMWQrI1eLtK3KzKRviQnf+LpmWSfPawJcdVwEFSnhW5A==
+eslint-plugin-functional@6.0.0-next.7:
+  version "6.0.0-next.7"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-functional/-/eslint-plugin-functional-6.0.0-next.7.tgz#8cc3c11158f526ab1c30eb435e6943e46fa2ea71"
+  integrity sha512-Y3dmNp7P2bHUjo2iKtpTlZVP7sKzLjwOcBNp7wocOT/zSyS9hMAVCz+DEXjD4vZAqwo8VUhzKWBJ3slkOM9LlA==
   dependencies:
     "@typescript-eslint/utils" "^6.1.0"
     deepmerge-ts "^5.1.0"
