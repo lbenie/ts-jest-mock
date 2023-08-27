@@ -62,7 +62,7 @@
     "@typescript-eslint/parser": "6.4.1",
     "all-contributors-cli": "6.26.1",
     "concurrently": "8.2.1",
-    "conventional-changelog-conventionalcommits": "7.0.0",
+    "conventional-changelog-conventionalcommits": "7.0.1",
     "eslint": "8.48.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-functional": "6.0.0",
