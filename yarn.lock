@@ -2401,10 +2401,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.8.tgz#2448be5f24fe6b77114632b6350fcd219334651e"
   integrity sha512-8upnoQU0OPzbIkm+ZMM0zCeFCkw2s3mS0IWdx0+AAaWqm4fkBb0UJp8Edl7FVKRamYbpJC/aVsHpKWBIbiC7Zg==
 
-"@types/node@20.9.4":
-  version "20.9.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.4.tgz#cc8f970e869c26834bdb7ed480b30ede622d74c7"
-  integrity sha512-wmyg8HUhcn6ACjsn8oKYjkN/zUzQeNtMy44weTJSM6p4MMzEOuKbA3OjJ267uPCOW7Xex9dyrNTful8XTQYoDA==
+"@types/node@20.9.5":
+  version "20.9.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.9.5.tgz#bb441014bcb91c63742b0e1fe25b902f5d581faa"
+  integrity sha512-Uq2xbNq0chGg+/WQEU0LJTSs/1nKxz6u1iemLcGomkSnKokbW1fbLqc3HOqCf2JP7KjlL4QkS7oZZTrOQHQYgQ==
   dependencies:
     undici-types "~5.26.4"
 
