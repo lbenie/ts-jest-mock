@@ -9,7 +9,8 @@ export type JestMock<T> = T extends (...args: readonly any[]) => any
 
 /**
  * Maps to the proper jest mock type
- * @param toMock Something to mock
- * @returns Mocked version
+ * @template T
+ * @param {T} toMock Something to mock
+ * @returns {JestMock<T>} Mocked version
  */
 export const createMock = <T>(toMock: T) => toMock as JestMock<typeof toMock>
