@@ -44,11 +44,6 @@
     "format": "eslint lib --fix",
     "build": "vite build"
   },
-  "peerDependencies": {
-    "@types/jest": "29.5.10",
-    "jest": "29.7.0",
-    "typescript": "5.3.2"
-  },
   "devDependencies": {
     "@rollup/plugin-typescript": "11.1.6",
     "@semantic-release/changelog": "6.0.3",
