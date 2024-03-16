@@ -1450,10 +1450,10 @@
     p-filter "^4.0.0"
     url-join "^5.0.0"
 
-"@semantic-release/npm@^11.0.0":
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-11.0.2.tgz#6d50046df286572718484c9a66b2095277e2f650"
-  integrity sha512-owtf3RjyPvRE63iUKZ5/xO4uqjRpVQDUB9+nnXj0xwfIeM9pRl+cG+zGDzdftR4m3f2s4Wyf3SexW+kF5DFtWA==
+"@semantic-release/npm@^12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-12.0.0.tgz#2c3721aa3e242ad07ae6eb7a951934eeb0f0e5bb"
+  integrity sha512-72TVYQCH9NvVsO/y13eF8vE4bNnfls518+4KcFwJUKi7AtA/ZXoNgSg9gTTfw5eMZMkiH0izUrpGXgZE/cSQhA==
   dependencies:
     "@semantic-release/error" "^4.0.0"
     aggregate-error "^5.0.0"
@@ -1462,7 +1462,7 @@
     lodash-es "^4.17.21"
     nerf-dart "^1.0.0"
     normalize-url "^8.0.0"
-    npm "^10.0.0"
+    npm "^10.5.0"
     rc "^1.2.8"
     read-pkg "^9.0.0"
     registry-auth-token "^5.0.0"
@@ -1502,6 +1502,11 @@
   resolved "https://registry.yarnpkg.com/@sigstore/protobuf-specs/-/protobuf-specs-0.2.1.tgz#be9ef4f3c38052c43bd399d3f792c97ff9e2277b"
   integrity sha512-XTWVxnWJu+c1oCshMLwnKvz8ZQJJDVOlciMfgpJBQbThVjKTCG8dwyhgLngBD2KN0ap9F/gOV8rFDEx8uh7R2A==
 
+"@sigstore/protobuf-specs@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@sigstore/protobuf-specs/-/protobuf-specs-0.3.0.tgz#bdcc773671f625bb81591bca86ec5314d57297f3"
+  integrity sha512-zxiQ66JFOjVvP9hbhGj/F/qNdsZfkGb/dVXSanNRNuAzMlr4MC95voPUBX8//ZNnmv3uSYzdfR/JSkrgvZTGxA==
+
 "@sigstore/sign@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@sigstore/sign/-/sign-2.2.1.tgz#b37383db1f25ab20cfec980d23ce08e6f99e6caf"
@@ -1518,6 +1523,14 @@
   integrity sha512-S98jo9cpJwO1mtQ+2zY7bOdcYyfVYCUaofCG6wWRzk3pxKHVAkSfshkfecto2+LKsx7Ovtqbgb2LS8zTRhxJ9Q==
   dependencies:
     "@sigstore/protobuf-specs" "^0.2.1"
+    tuf-js "^2.2.0"
+
+"@sigstore/tuf@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@sigstore/tuf/-/tuf-2.3.1.tgz#86ff3c3c907e271696c88de0108d9063a8cbcc45"
+  integrity sha512-9Iv40z652td/QbV0o5n/x25H9w6IYRt2pIGbTX55yFDYlApDQn/6YZomjz6+KBx69rXHLzHcbtTS586mDdFD+Q==
+  dependencies:
+    "@sigstore/protobuf-specs" "^0.3.0"
     tuf-js "^2.2.0"
 
 "@sigstore/verify@^0.1.0":
@@ -5956,10 +5969,10 @@ npm-user-validate@^2.0.0:
   resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-2.0.0.tgz#7b69bbbff6f7992a1d9a8968d52fd6b6db5431b6"
   integrity sha512-sSWeqAYJ2dUPStJB+AEj0DyLRltr/f6YNcvCA7phkB8/RMLMnVsQ41GMwHo/ERZLYNDsyB2wPm7pZo1mqPOl7Q==
 
-npm@^10.0.0:
-  version "10.4.0"
-  resolved "https://registry.yarnpkg.com/npm/-/npm-10.4.0.tgz#904025b4d932cfaed8799e644a1c5ae7f02729fc"
-  integrity sha512-RS7Mx0OVfXlOcQLRePuDIYdFCVBPCNapWHplDK+mh7GDdP/Tvor4ocuybRRPSvfcRb2vjRJt1fHCqw3cr8qACQ==
+npm@^10.5.0:
+  version "10.5.0"
+  resolved "https://registry.yarnpkg.com/npm/-/npm-10.5.0.tgz#726f91df5b1b14d9637c8819d7e71cb873c395a1"
+  integrity sha512-Ejxwvfh9YnWVU2yA5FzoYLTW52vxHCz+MHrOFg9Cc8IFgF/6f5AGPAvb5WTay5DIUP1NIfN3VBZ0cLlGO0Ys+A==
   dependencies:
     "@isaacs/string-locale-compare" "^1.1.0"
     "@npmcli/arborist" "^7.2.1"
@@ -5969,7 +5982,7 @@ npm@^10.0.0:
     "@npmcli/package-json" "^5.0.0"
     "@npmcli/promise-spawn" "^7.0.1"
     "@npmcli/run-script" "^7.0.4"
-    "@sigstore/tuf" "^2.3.0"
+    "@sigstore/tuf" "^2.3.1"
     abbrev "^2.0.0"
     archy "~1.0.0"
     cacache "^18.0.2"
@@ -6020,7 +6033,7 @@ npm@^10.0.0:
     proc-log "^3.0.0"
     qrcode-terminal "^0.12.0"
     read "^2.1.0"
-    semver "^7.5.4"
+    semver "^7.6.0"
     spdx-expression-parse "^3.0.1"
     ssri "^10.0.5"
     supports-color "^9.4.0"
@@ -6952,15 +6965,15 @@ sax@~1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-semantic-release@23.0.3:
-  version "23.0.3"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-23.0.3.tgz#123e157455da894f241f04861a46c2ec8577a396"
-  integrity sha512-eUxHZCyvhiMf9bo6LCisZa2428Be39PkXCppUKG6T6tcWpG9vJnCgaSoNwJ00fsYKGyzwKyO59f8AMhOn7clpQ==
+semantic-release@23.0.4:
+  version "23.0.4"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-23.0.4.tgz#62a2a860893468d8175335160aa83671602a74b2"
+  integrity sha512-UlcgO6SEcFtwSF/JMVXKswK+4Af2ypu55WRdLL6IhnKHPCZ9Zap7CV8PN2+wmvAdAPTI76CqouJyGZyb1fp9VA==
   dependencies:
     "@semantic-release/commit-analyzer" "^11.0.0"
     "@semantic-release/error" "^4.0.0"
     "@semantic-release/github" "^10.0.0"
-    "@semantic-release/npm" "^11.0.0"
+    "@semantic-release/npm" "^12.0.0"
     "@semantic-release/release-notes-generator" "^12.0.0"
     aggregate-error "^5.0.0"
     cosmiconfig "^9.0.0"
