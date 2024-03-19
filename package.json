@@ -21,13 +21,13 @@
     "dist"
   ],
   "type": "module",
-  "main": "./dist/ts-jest-mock.umd.js",
-  "module": "./dist/ts-jest-mock.es.js",
+  "main": "./dist/ts-jest-mock.umd.cjs",
+  "module": "./dist/ts-jest-mock.js",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
-      "import": "./dist/ts-jest-mock.es.js",
-      "require": "./dist/ts-jest-mock.umd.js"
+      "import": "./dist/ts-jest-mock.js",
+      "require": "./dist/ts-jest-mock.umd.cjs"
     }
   },
   "release": {

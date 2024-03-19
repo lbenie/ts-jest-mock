@@ -10,12 +10,10 @@
     "declaration": true
   },
   "include": [
-    "lib/**/*.ts",
+    "lib/index.ts",
     "global.d.ts"
   ],
   "exclude": [
     "node_modules",
-    "lib/sample",
-    "*.spec.ts"
   ]
 }
