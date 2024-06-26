@@ -892,10 +892,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lbenie/linting@1.7.55":
-  version "1.7.55"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.7.55.tgz#1176eb74a8379bde67f38a6664cf750f95917fba"
-  integrity sha512-uwvHhguUhX9ON0DDelf594glcIFy33VoyD3pmxFmzpVMir0le3cU24VBNKx3b5Iv/5j/LYOHnkx6xoeTV7MKkA==
+"@lbenie/linting@1.7.56":
+  version "1.7.56"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.7.56.tgz#94d6850ddb29f13766098bb417048012e9064219"
+  integrity sha512-kaTvbQymE9fuCLHFQqkS0sXYR6CZORQjPiIsHb5WlgBHNqwNMivg15MrSTORFmMjmxRL7bsLbZE1bsALh37qow==
   dependencies:
     "@typescript-eslint/eslint-plugin" "7.14.1"
     "@typescript-eslint/parser" "7.14.1"
@@ -904,7 +904,7 @@
     eslint-plugin-functional "6.6.0"
     eslint-plugin-jsdoc "48.5.0"
     eslint-plugin-jsx-a11y "6.9.0"
-    eslint-plugin-lit-a11y "4.1.2"
+    eslint-plugin-lit-a11y "4.1.3"
     eslint-plugin-prettier "5.1.3"
     globals "15.6.0"
     postcss "8.4.38"
@@ -1737,6 +1737,13 @@
   resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-8.2.6.tgz#609890d750370c73530c30dab335d7c682e90d6c"
   integrity sha512-2jmSYmrbGqt59JBkv1TvoOwQpUccCL3c90FLZIWg1zBNwj6zeOrwh734E5dKswDaC+BudQ3FtwlWB5augSuo1w==
 
+"@thepassle/axobject-query@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@thepassle/axobject-query/-/axobject-query-4.0.0.tgz#55913184bbd715544c4a5960eac85e598c03715c"
+  integrity sha512-/LHo+2jOdxs2WtbGocr3/lDSzsnjgCV6DSoBf4Y1Q0D24Hu67NPWuneoJimfHu5auqqSWi1fAvtln2013VxVqg==
+  dependencies:
+    dequal "^2.0.3"
+
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/@tsconfig/node10/-/node10-1.0.9.tgz#df4907fc07a886922637b15e02d4cebc4c0021b2"
@@ -2460,11 +2467,6 @@ axe-core@^4.9.1:
   version "4.9.1"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.9.1.tgz#fcd0f4496dad09e0c899b44f6c4bb7848da912ae"
   integrity sha512-QbUdXJVTpvUTHU7871ppZkdOLBeGUKBQWHkHrvN2V9IQWGMt61zf3B45BtzjxEJzYuj0JBjBZP/hmYS/R9pmAw==
-
-axobject-query@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
-  integrity sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA==
 
 axobject-query@~3.1.1:
   version "3.1.1"
@@ -3741,14 +3743,14 @@ eslint-plugin-jsx-a11y@6.9.0:
     safe-regex-test "^1.0.3"
     string.prototype.includes "^2.0.0"
 
-eslint-plugin-lit-a11y@4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-lit-a11y/-/eslint-plugin-lit-a11y-4.1.2.tgz#8d813e8c07a6a3a905fb3404138571783accd89a"
-  integrity sha512-otrF1Q0uv6RUz/AflVgnf1rVzbfQJfgUmnB+xBl71IR8EwtJGEOrqGs3Ky/4APMda+maF6bsZLctppcz16m7Hw==
+eslint-plugin-lit-a11y@4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-lit-a11y/-/eslint-plugin-lit-a11y-4.1.3.tgz#121787a69f27a6e3dc46d6be1744bf022ac63185"
+  integrity sha512-ndfGZU0RFKp9xqm17f94sQzjgVchDtYL1z/N0qG0otQiDtia1EUVCdd1eMlCeeUe6LTtfjV4iAsNU4r0bVB/Yw==
   dependencies:
+    "@thepassle/axobject-query" "^4.0.0"
     aria-query "^5.1.3"
     axe-core "^4.3.3"
-    axobject-query "^2.2.0"
     dom5 "^3.0.1"
     emoji-regex "^10.2.1"
     eslint-plugin-lit "^1.10.1"
