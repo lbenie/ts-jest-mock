@@ -66,7 +66,7 @@
     "rollup": "4.19.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "semantic-release": "24.0.0",
-    "ts-jest": "29.2.3",
+    "ts-jest": "29.2.4",
     "ts-node": "10.9.2",
     "tslib": "2.6.3",
     "tsutils": "3.21.0",
