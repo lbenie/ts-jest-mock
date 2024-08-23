@@ -68,7 +68,7 @@
     "semantic-release": "24.1.0",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",
-    "tslib": "2.6.3",
+    "tslib": "2.7.0",
     "tsutils": "3.21.0",
     "typescript": "5.5.4",
     "vite": "5.4.2"
