@@ -1247,10 +1247,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lbenie/linting@1.8.8":
-  version "1.8.8"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.8.tgz#0da0d927e9d102b9295849a589e4c0f91974f41a"
-  integrity sha512-rM5CO7H67hkhB1b7AWbFNNxe7GSzWXa3YAXzJCkb39OVVfq6DAn4ynZTbBZKNjVsRhmfYhr2uRdxOl7RWYJjug==
+"@lbenie/linting@1.8.9":
+  version "1.8.9"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.9.tgz#4a2b310be9f54e3776d27a79bcc0c298189a6451"
+  integrity sha512-QWO1b0rEMaEGOSG2qvgfVGcQwq9Jl/rTbH1bGQWC4nnR7BPkpUX8gSUrshBpwZqhqkVTKbuSfYktr+w69KqotQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "8.3.0"
     "@typescript-eslint/parser" "8.3.0"
@@ -1261,7 +1261,7 @@
     eslint-plugin-lit-a11y "4.1.4"
     eslint-plugin-prettier "5.2.1"
     globals "15.9.0"
-    postcss "8.4.41"
+    postcss "8.4.42"
     postcss-scss "4.0.9"
     postcss-styl "0.12.3"
     prettier "3.3.3"
@@ -6684,10 +6684,10 @@ postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.41, postcss@^8.4.41:
-  version "8.4.41"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.41.tgz#d6104d3ba272d882fe18fc07d15dc2da62fa2681"
-  integrity sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==
+postcss@8.4.42:
+  version "8.4.42"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.42.tgz#0954e9b075f961fb2790d6b807b1f24e7334dbea"
+  integrity sha512-hywKUQB9Ra4dR1mGhldy5Aj1X3MWDSIA1cEi+Uy0CjheLvP6Ual5RlwMCh8i/X121yEDLDIKBsrCQ8ba3FDMfQ==
   dependencies:
     nanoid "^3.3.7"
     picocolors "^1.0.1"
@@ -6701,6 +6701,15 @@ postcss@8.4.41, postcss@^8.4.41:
     nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+postcss@^8.4.41:
+  version "8.4.41"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.41.tgz#d6104d3ba272d882fe18fc07d15dc2da62fa2681"
+  integrity sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==
+  dependencies:
+    nanoid "^3.3.7"
+    picocolors "^1.0.1"
+    source-map-js "^1.2.0"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
