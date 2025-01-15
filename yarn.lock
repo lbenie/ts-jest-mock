@@ -1296,10 +1296,10 @@
   dependencies:
     buffer "^6.0.3"
 
-"@lbenie/linting@1.8.75":
-  version "1.8.75"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.75.tgz#28b92b85270cfe99083c875c08755a0c0d532e95"
-  integrity sha512-O8KTNtZIW7K4/ozBJ5eCxm3sbHqxV5BGKfd8uXBI+4EKlLugB3kfxCzJ0sjJd8GdzdjBA6FxFmXfM5Bm3uCWdA==
+"@lbenie/linting@1.8.76":
+  version "1.8.76"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.76.tgz#868dcb07a09936dcad091f5efdf4a660c4939039"
+  integrity sha512-rDuk3RDOmUkrm1jup8KlFIumy3+Z2uzDkyXKf9WYQyRcVJ+pIHBqiT9UbLTNVJlECBflZ7Q//WeVKTNGwA8GQQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "8.20.0"
     "@typescript-eslint/parser" "8.20.0"
@@ -1314,7 +1314,7 @@
     postcss-scss "4.0.9"
     postcss-styl "0.12.3"
     prettier "3.4.2"
-    stylelint "16.13.1"
+    stylelint "16.13.2"
     stylelint-order "6.0.4"
     stylelint-stylus "1.0.0"
 
@@ -7689,10 +7689,10 @@ stylelint-stylus@1.0.0:
     stylelint-config-html "^1.0.0"
     svg-tags "^1.0.0"
 
-stylelint@16.13.1:
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-16.13.1.tgz#bc1bb8a01052c60a1b7c1038aa54773b14fea5b7"
-  integrity sha512-691JjSIIcP6f9QJFz0J0/AMG3lupE9RqYAgYCON3wiqp5nQiKqDYIsz321GeTOYNznoRPNh0Mf6VjzP1eBVz/Q==
+stylelint@16.13.2:
+  version "16.13.2"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-16.13.2.tgz#a0e8aab7cedde55f185ac8af6f526e53df783294"
+  integrity sha512-wDlgh0mRO9RtSa3TdidqHd0nOG8MmUyVKl+dxA6C1j8aZRzpNeEgdhFmU5y4sZx4Fc6r46p0fI7p1vR5O2DZqA==
   dependencies:
     "@csstools/css-parser-algorithms" "^3.0.4"
     "@csstools/css-tokenizer" "^3.0.3"
