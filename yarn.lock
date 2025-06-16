@@ -1431,10 +1431,10 @@
   dependencies:
     buffer "^6.0.3"
 
-"@lbenie/linting@1.8.150":
-  version "1.8.150"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.150.tgz#de2245232fe1266e609fd4e8d568b109cc27c909"
-  integrity sha512-RRqOD54xYQ9+/bUIhwKJTIip59pIWbJsj0WZSD+Cv5jOEEkRy3E04jT0flngN61e7jMahYPgNcxn3xHzfH7dEw==
+"@lbenie/linting@1.8.151":
+  version "1.8.151"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.151.tgz#ce6ceb383cfe39d2825b9937e3f53a061cc540f7"
+  integrity sha512-y/SvHAE7VovO2zOP7eJ8OH5uyPI45dMC5bSYSgemQ2x3x7fEApN2RGMRz8meY/k/znaKQYuLJg6PBvLbgn4WYQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "8.34.0"
     "@typescript-eslint/parser" "8.34.0"
@@ -1445,7 +1445,7 @@
     eslint-plugin-lit-a11y "4.1.4"
     eslint-plugin-prettier "5.4.1"
     globals "16.2.0"
-    postcss "8.5.5"
+    postcss "8.5.6"
     postcss-scss "4.0.9"
     postcss-styl "0.12.3"
     prettier "3.5.3"
@@ -7315,10 +7315,10 @@ postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.5.5:
-  version "8.5.5"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.5.tgz#04de7797f6911fb1c96550e96616d08681537ef3"
-  integrity sha512-d/jtm+rdNT8tpXuHY5MMtcbJFBkhXE6593XVR9UoGCH8jSFGci7jGvMGH5RYd5PBJW+00NZQt6gf7CbagJCrhg==
+postcss@8.5.6:
+  version "8.5.6"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.6.tgz#2825006615a619b4f62a9e7426cc120b349a8f3c"
+  integrity sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==
   dependencies:
     nanoid "^3.3.11"
     picocolors "^1.1.1"
