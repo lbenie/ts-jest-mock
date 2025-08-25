@@ -58,7 +58,7 @@
     "@types/jest": "30.0.0",
     "@types/node": "22.17.1",
     "all-contributors-cli": "6.26.1",
-    "concurrently": "9.2.0",
+    "concurrently": "9.2.1",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "jest": "30.0.5",
     "jest-chain": "1.1.6",
