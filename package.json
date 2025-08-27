@@ -60,7 +60,7 @@
     "all-contributors-cli": "6.26.1",
     "concurrently": "9.2.1",
     "conventional-changelog-conventionalcommits": "9.1.0",
-    "jest": "30.1.0",
+    "jest": "30.1.1",
     "jest-chain": "1.1.6",
     "jest-extended": "6.0.0",
     "rollup": "4.49.0",
