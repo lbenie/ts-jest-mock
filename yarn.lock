@@ -1570,10 +1570,10 @@
   resolved "https://registry.yarnpkg.com/@keyv/serialize/-/serialize-1.1.0.tgz#08f5d89096110fdcf778e5337362e1cd5afad70a"
   integrity sha512-RlDgexML7Z63Q8BSaqhXdCYNBy/JQnqYIwxofUrNLGCblOMHp+xux2Q8nLMLlPpgHQPoU0Do8Z6btCpRBEqZ8g==
 
-"@lbenie/linting@1.8.184":
-  version "1.8.184"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.184.tgz#2d8f3710bfea8e08efc5f89f84124c3d33ffa5ba"
-  integrity sha512-GB18nu857i6KEMztAX/6/rsUm9QM5Fwiiawai6QgENVOFFYZLBi5f1YqyLTDIjeZXMGY1XXPVPFlRnYAB9xOCA==
+"@lbenie/linting@1.8.185":
+  version "1.8.185"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.185.tgz#2539d4ba6d1966384dddeb24854ea810f9bdb1b9"
+  integrity sha512-aeFQVvCS+BKDTQRWxqjKCjYacGa/jhfNThWV1U+mP2yWoggoCn2Iz1n9Me/w4B9zw8v0738ss9uTDci7BDei0g==
   dependencies:
     "@typescript-eslint/eslint-plugin" "8.43.0"
     "@typescript-eslint/parser" "8.43.0"
@@ -1583,7 +1583,7 @@
     eslint-plugin-jsdoc "50.8.0"
     eslint-plugin-lit-a11y "4.1.4"
     eslint-plugin-prettier "5.5.4"
-    globals "16.3.0"
+    globals "16.4.0"
     postcss "8.5.6"
     postcss-scss "4.0.9"
     postcss-styl "0.12.3"
@@ -5016,10 +5016,10 @@ global-prefix@^3.0.0:
     kind-of "^6.0.2"
     which "^1.3.1"
 
-globals@16.3.0:
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-16.3.0.tgz#66118e765ddaf9e2d880f7e17658543f93f1f667"
-  integrity sha512-bqWEnJ1Nt3neqx2q5SFfGS8r/ahumIakg3HcwtNlrVlwXIeNumWn/c7Pn/wKzGhf6SaW6H6uWXLqC30STCMchQ==
+globals@16.4.0:
+  version "16.4.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-16.4.0.tgz#574bc7e72993d40cf27cf6c241f324ee77808e51"
+  integrity sha512-ob/2LcVVaVGCYN+r14cnwnoDPUufjiYgSqRhiFD0Q1iI4Odora5RE8Iv1D24hAz5oMophRGkGz+yuvQmmUMnMw==
 
 globals@^11.1.0:
   version "11.12.0"
