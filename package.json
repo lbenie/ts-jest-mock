@@ -47,7 +47,7 @@
     "build": "vite build"
   },
   "devDependencies": {
-    "@lbenie/linting": "1.8.198",
+    "@lbenie/linting": "1.8.199",
     "@rollup/plugin-typescript": "12.3.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
