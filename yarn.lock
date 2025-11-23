@@ -1701,17 +1701,17 @@
   resolved "https://registry.yarnpkg.com/@keyv/serialize/-/serialize-1.1.1.tgz#0c01dd3a3483882af7cf3878d4e71d505c81fc4a"
   integrity sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==
 
-"@lbenie/linting@1.8.206":
-  version "1.8.206"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.206.tgz#7bdc9a67f8b5a24c1df25e774ac708b20dd5377c"
-  integrity sha512-15LepQ6slE5t4gvZdDnQ6Hw0fHtJ6L/NZOyzDayPNV6Pq4dNAYqjcFVC5g6x1IKwgoNZamdAihLtQ8fym4vrwg==
+"@lbenie/linting@1.8.207":
+  version "1.8.207"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.207.tgz#42955c6e8fa3abb23324e00dcb173783aa6ac5cb"
+  integrity sha512-Yn2JRYIfigGgWn3g1CUrmx/e7ZUeBGx9mNxq6gRRkK7FJZyYz3H9HFKs1rq+fWYMfTRODL6zqEW+b8svcnTTFA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "8.47.0"
     "@typescript-eslint/parser" "8.47.0"
     eslint "9.39.1"
     eslint-plugin-astro "1.5.0"
     eslint-plugin-functional "9.0.2"
-    eslint-plugin-jsdoc "61.4.0"
+    eslint-plugin-jsdoc "61.4.1"
     eslint-plugin-lit-a11y "5.1.1"
     eslint-plugin-prettier "5.5.4"
     globals "16.5.0"
@@ -4389,10 +4389,10 @@ eslint-plugin-functional@9.0.2:
     ts-api-utils "^2.0.1"
     ts-declaration-location "^1.0.6"
 
-eslint-plugin-jsdoc@61.4.0:
-  version "61.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-61.4.0.tgz#f5344eed7ff8844231f717f0eb6e6881e5bfee5b"
-  integrity sha512-Gbe6Z1QENj6jr5PVnEkWwm0PcVCGFwl9ju+e0BxFuRHHv6c8q2L+PRfCwDBO+veEEEGi5XO52nmoIRvhxb1A3Q==
+eslint-plugin-jsdoc@61.4.1:
+  version "61.4.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-61.4.1.tgz#3a0b2f72ee67083677dce1a248217336786d1da4"
+  integrity sha512-3c1QW/bV25sJ1MsIvsvW+EtLtN6yZMduw7LVQNVt72y2/5BbV5Pg5b//TE5T48LRUxoEQGaZJejCmcj3wCxBzw==
   dependencies:
     "@es-joy/jsdoccomment" "~0.76.0"
     "@es-joy/resolve.exports" "1.2.0"
