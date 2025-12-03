@@ -1713,10 +1713,10 @@
   resolved "https://registry.yarnpkg.com/@keyv/serialize/-/serialize-1.1.1.tgz#0c01dd3a3483882af7cf3878d4e71d505c81fc4a"
   integrity sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==
 
-"@lbenie/linting@1.8.213":
-  version "1.8.213"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.213.tgz#41c2b42f10419562a22caca7a42014337f42af3c"
-  integrity sha512-MyRut5LdLlRWbsc3uxkz8XHLcapEC9PqFhK/L3qhYpr4HuJhMvn7r+7rif1o/qJHbWlagANVk97CZoNGjqk5oA==
+"@lbenie/linting@1.8.214":
+  version "1.8.214"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-1.8.214.tgz#26b17738ce61beedc31cd76ae56c3113c0a7fe91"
+  integrity sha512-VfBV0RPWCb/iBhyJwbraq+ivIWceVLU/Kc8pnibJOE6RQnR16yMSm/xW9XkPJeuFEpn2NdAQR8L9XzwEirRWGw==
   dependencies:
     "@typescript-eslint/eslint-plugin" "8.48.1"
     "@typescript-eslint/parser" "8.48.1"
@@ -1730,7 +1730,7 @@
     postcss "8.5.6"
     postcss-scss "4.0.9"
     postcss-styl "0.12.3"
-    prettier "3.7.3"
+    prettier "3.7.4"
     stylelint "16.26.1"
     stylelint-order "7.0.0"
     stylelint-stylus "1.0.0"
@@ -7635,10 +7635,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@3.7.3:
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.3.tgz#99a8891f6c990cfa54bcff2a0d276e6f845e59ab"
-  integrity sha512-QgODejq9K3OzoBbuyobZlUhznP5SKwPqp+6Q6xw6o8gnhr4O85L2U915iM2IDcfF2NPXVaM9zlo9tdwipnYwzg==
+prettier@3.7.4:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.7.4.tgz#d2f8335d4b1cec47e1c8098645411b0c9dff9c0f"
+  integrity sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==
 
 prettier@^2:
   version "2.8.8"
