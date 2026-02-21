@@ -1570,10 +1570,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@lbenie/linting@2.1.7":
-  version "2.1.7"
-  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-2.1.7.tgz#cb46efe3b6079404e1506e06b9421e2167ac68ff"
-  integrity sha512-xIMoCrN8XvLRep6wmhVw8DWeJ2J6hfOwPwWXscv5wJQ2yNUX41mnm6NKy+3iKKKQDvOWp/Qb0YUZc1VGGaVKcA==
+"@lbenie/linting@2.1.8":
+  version "2.1.8"
+  resolved "https://registry.yarnpkg.com/@lbenie/linting/-/linting-2.1.8.tgz#497cd3fcda4c3c53ebf57be457218e7c3d981bc3"
+  integrity sha512-BYgrCQfQNBW4GnIER+ZP1640MwQYSW2mW6563T4pc/A5Oiy/z8r4+dnyxJbeWSkI0ojPxKWAQDpr3oCyKyswEw==
   dependencies:
     "@biomejs/biome" "2.4.4"
 
