@@ -2350,25 +2350,25 @@
   dependencies:
     "@sinonjs/commons" "^3.0.1"
 
-"@stryker-mutator/api@9.6.0":
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-9.6.0.tgz#791e744aa1434b6d311f20783d1e63a41da01f61"
-  integrity sha512-kJEEwOVoWDXGEIXuM+9efT6LSJ7nyxnQQvjEoKg8GSZXbDUjfD0tqA0aBD06U1SzQLKCM7ffjgPffr154MHZKw==
+"@stryker-mutator/api@9.6.1":
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-9.6.1.tgz#df8072cb268a6fd8dec2994cc64b477978fa3d69"
+  integrity sha512-g8VNoFWQWbx0pdal3Vt8jVCZW+v3sc3gi94iI0GVtVgUGTqphAjJF6EAruPTx0lqvtonsaAxn5TD36hcG1d6Wg==
   dependencies:
-    mutation-testing-metrics "3.7.2"
-    mutation-testing-report-schema "3.7.2"
+    mutation-testing-metrics "3.7.3"
+    mutation-testing-report-schema "3.7.3"
     tslib "~2.8.0"
     typed-inject "~5.0.0"
 
-"@stryker-mutator/core@9.6.0":
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-9.6.0.tgz#17e8026c8e6219d23391c69af335f6915de4316c"
-  integrity sha512-oSbw01l6HXHt0iW9x5fQj7yHGGT8ZjCkXSkI7Bsu0juO7Q6vRMXk7XcvKpCBgRgzKXi1osg8+iIzj7acHuxepQ==
+"@stryker-mutator/core@9.6.1":
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-9.6.1.tgz#c149d80754b9fc73c11f6282ec199af24be535f4"
+  integrity sha512-WMgnvf+Wyh/yiruhNZwc8w8DlzmmjXhPjSn5MR8RhAXzlnWji8TQrUYgBUkHk9bEgSaIlB3KZHm37iiU5Q2cLQ==
   dependencies:
     "@inquirer/prompts" "^8.0.0"
-    "@stryker-mutator/api" "9.6.0"
-    "@stryker-mutator/instrumenter" "9.6.0"
-    "@stryker-mutator/util" "9.6.0"
+    "@stryker-mutator/api" "9.6.1"
+    "@stryker-mutator/instrumenter" "9.6.1"
+    "@stryker-mutator/util" "9.6.1"
     ajv "~8.18.0"
     chalk "~5.6.0"
     commander "~14.0.0"
@@ -2379,9 +2379,9 @@
     lodash.groupby "~4.6.0"
     minimatch "~10.2.4"
     mutation-server-protocol "~0.4.0"
-    mutation-testing-elements "3.7.2"
-    mutation-testing-metrics "3.7.2"
-    mutation-testing-report-schema "3.7.2"
+    mutation-testing-elements "3.7.3"
+    mutation-testing-metrics "3.7.3"
+    mutation-testing-report-schema "3.7.3"
     npm-run-path "~6.0.0"
     progress "~2.0.3"
     rxjs "~7.8.1"
@@ -2390,12 +2390,12 @@
     tree-kill "~1.2.2"
     tslib "2.8.1"
     typed-inject "~5.0.0"
-    typed-rest-client "~2.2.0"
+    typed-rest-client "~2.3.0"
 
-"@stryker-mutator/instrumenter@9.6.0":
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/instrumenter/-/instrumenter-9.6.0.tgz#2391abf9fe1999b438f91f6b06de428b67c62719"
-  integrity sha512-tWdRYfm9LF4Go7cNOos0xEIOEnN7ZOSj38rfXvGZS9IINlvYBrBCl2xcz/67v6l5A7xksMWWByZRIq2bgdnnUg==
+"@stryker-mutator/instrumenter@9.6.1":
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/instrumenter/-/instrumenter-9.6.1.tgz#97e0e03da440712fac29a52c82f5cc0945183480"
+  integrity sha512-5K8wH4Pthly25c2uKKik4Dfcoeou7sbJdFS6u3QIYHlulgFVDJwtEMWTZGkZfs7IiUEXIDNa0keRACq5jn5AvA==
   dependencies:
     "@babel/core" "~7.29.0"
     "@babel/generator" "~7.29.0"
@@ -2403,27 +2403,27 @@
     "@babel/plugin-proposal-decorators" "~7.29.0"
     "@babel/plugin-transform-explicit-resource-management" "^7.28.0"
     "@babel/preset-typescript" "~7.28.0"
-    "@stryker-mutator/api" "9.6.0"
-    "@stryker-mutator/util" "9.6.0"
+    "@stryker-mutator/api" "9.6.1"
+    "@stryker-mutator/util" "9.6.1"
     angular-html-parser "~10.4.0"
     semver "~7.7.0"
     tslib "2.8.1"
     weapon-regex "~1.3.2"
 
-"@stryker-mutator/jest-runner@9.6.0":
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-9.6.0.tgz#9ced8bd060dfd149492bd5adce69adeae89e61d5"
-  integrity sha512-o98fwUe9VSXkHaiixAm3FJzQjUFAtZSkh6eWya79nCbqOV9mYQCMUmCN0apEVQZzKyW35FGVgjCohuFUQ9n+gQ==
+"@stryker-mutator/jest-runner@9.6.1":
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-9.6.1.tgz#e30ef75112b2d09f168ab74ce4b0310a6d2d0f41"
+  integrity sha512-nIrIndfWwdweYkIcxJmyBTpl84nrXs9AE6A8vzEwwzUGvDb9kVvwBPfpEajtdAkjwPceH0pPuVrPkotvqcgYqQ==
   dependencies:
-    "@stryker-mutator/api" "9.6.0"
-    "@stryker-mutator/util" "9.6.0"
+    "@stryker-mutator/api" "9.6.1"
+    "@stryker-mutator/util" "9.6.1"
     semver "~7.7.0"
     tslib "~2.8.0"
 
-"@stryker-mutator/util@9.6.0":
-  version "9.6.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-9.6.0.tgz#cb5b6d43cb709cc3fdbab0b9389430abffeae418"
-  integrity sha512-gw7fJOFNHEj9inAEOodD9RrrMEMhZmWJ46Ww/kDJAXlSsBBmdwCzeomNLngmLTvgp14z7Tfq85DHYwvmNMdOxA==
+"@stryker-mutator/util@9.6.1":
+  version "9.6.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-9.6.1.tgz#f4ce5cb3a5379002c56b742b70dfdc96d392acc0"
+  integrity sha512-Lk/ALVctJjFv1vvwR+CFoKzDCWvsBlq7flDUnmnpuwTrGbm156EdZD1Jjq4o8KdOap0ezUZqQNE9OAI1m2+pUQ==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
@@ -5663,22 +5663,22 @@ mutation-server-protocol@~0.4.0:
   dependencies:
     zod "^4.1.12"
 
-mutation-testing-elements@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/mutation-testing-elements/-/mutation-testing-elements-3.7.2.tgz#c64ff82c984b33dccd90618be274c11e120332eb"
-  integrity sha512-i7X2Q4X5eYon72W2QQ9HND7plVhQcqTnv+Xc3KeYslRZSJ4WYJoal8LFdbWm7dKWLNE0rYkCUrvboasWzF3MMA==
+mutation-testing-elements@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/mutation-testing-elements/-/mutation-testing-elements-3.7.3.tgz#ae53b36dec076fd1146e2cc473f5a872f924a9a7"
+  integrity sha512-SMeIPxngJpfjfNYctFpYQQtlBlZaVO0aoB3FKdwrI8Ee/2bkyUuCZzAOCLv1U9fnmfA37dPFq0Owduoxs2XgGQ==
 
-mutation-testing-metrics@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/mutation-testing-metrics/-/mutation-testing-metrics-3.7.2.tgz#38413cd71df47d1393f547d76caa2e58857fa40b"
-  integrity sha512-ichXZSC4FeJbcVHYOWzWUhNuTJGogc0WiQol8lqEBrBSp+ADl3fmcZMqrx0ogInEUiImn+A8JyTk6uh9vd25TQ==
+mutation-testing-metrics@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/mutation-testing-metrics/-/mutation-testing-metrics-3.7.3.tgz#6958a1a154fcbfb28a1cdc7764db56cb65a6b68d"
+  integrity sha512-B8QrP0ZomErzTPNlhrzKWPNBln+3afwBZPHv0Q7N8wZZTYxMptzb/Gdm3ExXVmioVYrtZAtsDs7W/T/b2AixOQ==
   dependencies:
-    mutation-testing-report-schema "3.7.2"
+    mutation-testing-report-schema "3.7.3"
 
-mutation-testing-report-schema@3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-3.7.2.tgz#ca5921759e6f60ce09a6d265b12304922b98f974"
-  integrity sha512-fN5M61SDzIOeJyatMOhGPLDOFz5BQIjTNPjo4PcHIEUWrejO4i4B5PFuQ/2l43709hEsTxeiXX00H73WERKcDw==
+mutation-testing-report-schema@3.7.3:
+  version "3.7.3"
+  resolved "https://registry.yarnpkg.com/mutation-testing-report-schema/-/mutation-testing-report-schema-3.7.3.tgz#f3a42f9084e1eb324494b87c9464df0b6d0f802d"
+  integrity sha512-BHm3MYq+ckO+t5CtlG8zpqxc75rdJCkxVlE+fGuGJM3F7tNCQ/OW2N+TQVHN3BHsYa84+BFc6g3AwDYkUsw2MA==
 
 mute-stream@0.0.8:
   version "0.0.8"
@@ -7474,16 +7474,16 @@ typed-inject@~5.0.0:
   resolved "https://registry.yarnpkg.com/typed-inject/-/typed-inject-5.0.0.tgz#03e19e41188ec6a05496a5d37dc307d649aa7e87"
   integrity sha512-0Ql2ORqBORLMdAW89TQKZsb1PQkFGImFfVmncXWe7a+AA3+7dh7Se9exxZowH4kbnlvKEFkMxUYdHUpjYWFJaA==
 
-typed-rest-client@~2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/typed-rest-client/-/typed-rest-client-2.2.0.tgz#da0727e408849bdb69820d86ee664afca34777a3"
-  integrity sha512-/e2Rk9g20N0r44kaQLb3v6QGuryOD8SPb53t43Y5kqXXA+SqWuU7zLiMxetw61jNn/JFrxTdr5nPDhGY/eTNhQ==
+typed-rest-client@~2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/typed-rest-client/-/typed-rest-client-2.3.0.tgz#6012b882e6cdbd1b0e0b60407f7d4e3fa5498a1d"
+  integrity sha512-FfBj5tjviexjIus3La4n4s9i+f81Zj7HU+lUlQWK219HMRfmzLsbIf4PZF2+X6EouJKyuANpvvef5VrUWM4AFw==
   dependencies:
     des.js "^1.1.0"
     js-md4 "^0.3.2"
     qs "^6.14.1"
     tunnel "0.0.6"
-    underscore "^1.12.1"
+    underscore "^1.13.8"
 
 typescript@6.0.2:
   version "6.0.2"
@@ -7495,10 +7495,10 @@ uglify-js@^3.1.4:
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.17.4.tgz#61678cf5fa3f5b7eb789bb345df29afb8257c22c"
   integrity sha512-T9q82TJI9e/C1TAxYvfb16xO120tMVFZrGA3f9/P4424DNu6ypK103y0GPFVa17yotwSyZW5iYXgjYHkGrJW/g==
 
-underscore@^1.12.1:
-  version "1.13.6"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.6.tgz#04786a1f589dc6c09f761fc5f45b89e935136441"
-  integrity sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==
+underscore@^1.13.8:
+  version "1.13.8"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.8.tgz#a93a21186c049dbf0e847496dba72b7bd8c1e92b"
+  integrity sha512-DXtD3ZtEQzc7M8m4cXotyHR+FAS18C64asBYY5vqZexfYryNNnDc02W4hKg3rdQuqOYas1jkseX0+nZXjTXnvQ==
 
 undici-types@~5.26.4:
   version "5.26.5"
