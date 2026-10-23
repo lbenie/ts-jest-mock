@@ -2391,25 +2391,25 @@
   dependencies:
     "@sinonjs/commons" "^3.0.1"
 
-"@stryker-mutator/api@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-10.0.0.tgz#62ae7b2db6083570ccbc7e6b3713d28377f83ff7"
-  integrity sha512-ZtAJ0ZT3MVRCWJTBE2h90XB/6E+4lifHYtcTyNG6nU2nLekPgTo4gD5esjX6Okxo1b/JB4jJzyxYB54fwKAoJw==
+"@stryker-mutator/api@10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-10.1.1.tgz#f345616517e5100cbcf4dac78d4b69fe7dd3a1d1"
+  integrity sha512-3s/ECsrD1Tf1WEB7amBk0HxjN7zgkabKvmqnI2C831rTNszJ6o2HoV9PVxtElDEWxb2+t4iavK5x25G+DTUOUA==
   dependencies:
     mutation-testing-metrics "3.8.4"
     mutation-testing-report-schema "3.8.4"
     tslib "~2.8.0"
     typed-inject "~5.0.0"
 
-"@stryker-mutator/core@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-10.0.0.tgz#e080335b437a77518c276ccc9a402dfc114c2cea"
-  integrity sha512-ZvMsRyaXQQ5e6Thcid9pkuODv6Fn9E3nrBQJUap+hcJuGJ4unm26afo3m6YKSjn8kinyxJ/3TXf0cTWRDaTxVw==
+"@stryker-mutator/core@10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-10.1.1.tgz#a383305dd719c7a29456c886149826a323100459"
+  integrity sha512-4xJAOCw9utJMLyrTk9gINi434tBxnyuwt8lU/InyoKagKd2/zh/2ui7ncWoD0qZeJrxClYzblg8iUh5ewBAB3Q==
   dependencies:
     "@inquirer/prompts" "^8.0.0"
-    "@stryker-mutator/api" "10.0.0"
-    "@stryker-mutator/instrumenter" "10.0.0"
-    "@stryker-mutator/util" "10.0.0"
+    "@stryker-mutator/api" "10.1.1"
+    "@stryker-mutator/instrumenter" "10.1.1"
+    "@stryker-mutator/util" "10.1.1"
     ajv "~8.20.0"
     chalk "~5.6.0"
     commander "~14.0.0"
@@ -2433,10 +2433,10 @@
     typed-inject "~5.0.0"
     typed-rest-client "~2.3.0"
 
-"@stryker-mutator/instrumenter@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/instrumenter/-/instrumenter-10.0.0.tgz#aa71013bc564c449e510d5b94514e8adb69ecce6"
-  integrity sha512-B7Wmn1KlEWyFeOz6D6oGvQGRfi5Xw3VemG6dEKvFQp4qLvxD9Mf4kcZghfxffgnYwXd3bFgqXsJ+ZGlhdfIOrQ==
+"@stryker-mutator/instrumenter@10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/instrumenter/-/instrumenter-10.1.1.tgz#9e1b43c795442620cb8dde4b8554fd0c4cd5d9af"
+  integrity sha512-Vyude2i8LhDciLV1q6J55KtdA7gZpRuMfZcBcmWV6hLHAvWocoPKnCKc5BlZt1mwGWkX3Olc0457I7Ue6F1WEg==
   dependencies:
     "@babel/core" "~8.0.0"
     "@babel/generator" "~8.0.0"
@@ -2446,27 +2446,27 @@
     "@babel/preset-react" "~8.0.0"
     "@babel/preset-typescript" "~8.0.0"
     "@babel/traverse" "~8.0.4"
-    "@stryker-mutator/api" "10.0.0"
-    "@stryker-mutator/util" "10.0.0"
+    "@stryker-mutator/api" "10.1.1"
+    "@stryker-mutator/util" "10.1.1"
     angular-html-parser "~10.11.0"
     semver "~7.8.0"
     tslib "2.8.1"
     weapon-regex "~2.0.0"
 
-"@stryker-mutator/jest-runner@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-10.0.0.tgz#0bcfa167c4b7336f22cc5f20b93e107a0f8d33af"
-  integrity sha512-WgUU/rk9qL+LXuOYZmNYJDu4JaQ6GIl5/xUkUEyYBvZa2eBVZypHa5rxzFTKiZXq3mqxEkgZ5xYXXzXPI8E51Q==
+"@stryker-mutator/jest-runner@10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-10.1.1.tgz#6cea8569bc5ce8e34daf04b0cc19b7cf056f9cdc"
+  integrity sha512-/Zsog+SkmuiS6ouA3WDM+ab/7lIkplCwlGslIBhSXP0L1L89mZ6JUVAyj3vAqTXhn+T6UKizzL8jCOTelpwqRQ==
   dependencies:
-    "@stryker-mutator/api" "10.0.0"
-    "@stryker-mutator/util" "10.0.0"
+    "@stryker-mutator/api" "10.1.1"
+    "@stryker-mutator/util" "10.1.1"
     semver "~7.8.0"
     tslib "~2.8.0"
 
-"@stryker-mutator/util@10.0.0":
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-10.0.0.tgz#9549122c8e5585b619024c4618620550b4f90992"
-  integrity sha512-LzOpHiJaCp2ABQgnPMlrQQcsK43bd5Vo/2FGL78aN62yDoeRQ+4j3tzeuXxK5OAHdC3fUz6TDoy4IsoAuLAd3w==
+"@stryker-mutator/util@10.1.1":
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-10.1.1.tgz#8b239db1264090676ecab3f4cad4fd2744308765"
+  integrity sha512-Z0zDzsmhoSykE1gT3DvD1knFxySgNMfBlpSSs1j87kWvjEMfeMqfLOk0bqEPRg/rTFIUNSEXLZapxePUhZmfZA==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.9"
